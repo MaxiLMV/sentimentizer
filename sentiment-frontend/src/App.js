@@ -60,9 +60,10 @@ function App() {
             required
           />
           <button type="submit" disabled={loading}>
-            {loading ? 'analyzing...' : 'Predict Sentiment!'}
+            {loading ? 'Analyzing...' : 'Predict Sentiment!'}
           </button>
         </form>
+        <p className="wake-up-note">There may be a delay for the backend to "wake up"</p>
 
         {prediction && (
           <div className="result">

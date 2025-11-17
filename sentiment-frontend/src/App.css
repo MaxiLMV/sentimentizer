@@ -99,3 +99,8 @@ p {
   margin: 5px 0;
   font-size: 1.1rem;
 }
+
+.wake-up-note {
+  font-size: 0.8em;
+  font-style: italic;
+}
